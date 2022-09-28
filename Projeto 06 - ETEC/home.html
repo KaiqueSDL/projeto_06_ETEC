@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HOME</title>
+   <!-- CSS PROPRIO  -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- LINK DA FONTE -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- LINK SWIPER -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+      <!--Links-->
+  <link rel="stylesheet" href="css/rodape.css">
+  <link rel="stylesheet" href="css/cabecalho.css">
+  <link rel="stylesheet" href="css/conta.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/sobre.css">
+
+
+
+
+
+</head>
+
+<body>
+
+   <!-- CABECHALHO -->
+
+   <header class="header">
+
+      <a href="#" class="logo"><img src="img/engrenagem.png" alt=""> ETEC Lauro Gomes </a>
+
+      <nav class="navbar">
+         <div id="close-navbar" class="fas fa-times"></div>
+         <a href="home.html">home</a>
+         <a href="sobre.html">sobre</a>
+         <a href="cursos.html">Cursos</a>
+         <a href="contato.html">Contato</a>
+      </nav>
+
+      <div class="icons">
+         <div id="account-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+   </header>
+
+
+
+   <!--Entra e Criar conta-->
+   <div class="account-form">
+
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+         <span class="btn active login-btn">Entrar</span>
+         <span class="btn register-btn">Registrar</span>
+      </div>
+
+      <form class="login-form active" action="">
+         <h3></h3>
+         <input type="email" placeholder="Digite seu RM" class="box">
+         <input type="password" placeholder="Digite sua senha" class="box">
+         <div class="flex">
+            <input type="checkbox" name="" id="remember-me">
+            <label >Deixe salvo</label>
+            <a href="#">Esqueceu sua senha?</a>
+         </div>
+         <input type="submit" value="Entrar" class="btn">
+      </form>
+
+      <form class="register-form" action="">
+         <h3>Registro</h3>
+         <input type="email" placeholder="Digite seu RM" class="box">
+         <input type="password" placeholder="Digite sua senha" class="box">
+         <input type="password" placeholder="Digite sua senha" class="box">
+         <input type="submit" value="Registrar" class="btn">
+      </form>
+
+   </div>
+
+ 
+
+   <section class="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+    
+               <section class="swiper-slide slide" style="background: linear-gradient(rgba(0,0,0,0.4),#0eb582), url(img/banner_principal.jpeg) no-repeat;">
+
+               <div class="content">
+                  <h3> O SEU FUTURO É ETEC LAURO GOMES</h3>
+                  <p>Estude conosco e se capacite para o seu futuro | Etec </p>
+                  <a href="cursos.html" class="btn">Conheça mais</a>
+               </div>
+            </section>
+
+            <section class="swiper-slide slide" style="background: linear-gradient(rgba(0,0,0,0.7),#0eb582), url(img/teste-bannner.jfif) no-repeat;">
+               <div class="content">
+                  <h3>Melhores cursos é Etec Lauro Gomes</h3>
+                  <p>Encontre os melhores cursos para você | Etec</p>
+                  <a href="#" class="btn">Começe Já</a>
+               </div>
+            </section>
+
+            <section class="swiper-slide slide" style="background: linear-gradient(rgba(0,0,0,0.4),#0eb582), url(img/tela.webp) no-repeat;">
+               <div class="content">
+                  <h3>Você no controle do seu futuro !</h3>
+                  <p>Consiga programar o seu futuro para o sucesso | Etec</p>
+                  <a href="#" class="btn">Vamos lá</a>
+               </div>
+            </section>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+
+
+   <section class="subjects">
+
+      <h1 class="heading">Cursos populares</h1>
+
+      <div class="box-container">
+
+        
+
+         <div class="box">
+            <img src="img/subject-icon-2.png" alt="">
+            <h3>Administração</h3>
+            <p>3 Módulos</p>
+         </div>
+
+         <div class="box">
+            <img src="img/subject-icon-3.png" alt="">
+            <h3>Logistica</h3>
+            <p>3 Módulos</p>
+         </div>
+
+         <div class="box">
+            <img src="img/subject-icon-4.png" alt="">
+            <h3>Desenvolvimento de sistemas</h3>
+            <p>3 Módulos</p>
+         </div>
+
+         <div class="box">
+            <img src="img/subject-icon-5.png" alt="">
+            <h3>Química</h3>
+            <p>3 Módulos</p>
+         </div>
+
+         <div class="box">
+            <img src="img/subject-icon-6.png" alt="">
+            <h3>Mecatrônica</h3>
+            <p>3 Módulos </p>
+         </div>
+
+      </div>
+
+   </section>
+
+
+
+<section class="about">
+
+   <div class="image">
+
+      <img src="img/etec.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="about-title">Nós possuimos os melhores cursos para você</h3>
+      <p>Aqui estão algumas estátisticas da nossa instituição</p>
+      <div class="icons-container">
+         <div class="icons">
+            <img src="img/about-icon-1.png" alt="">
+            <h3>11</h3>
+            <span>Cursos</span>
+         </div>
+         <div class="icons">
+            <img src="img/about-icon-2.png" alt="">
+            <h3>1320</h3>
+            <span>Estudantes</span>
+         </div>
+         <div class="icons">
+            <img src="img/about-icon-3.png" alt="">
+            <h3>12</h3>
+            <span>Premiações</span>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+
+
+
+
+
+   <!-- footer section starts  -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3> <img src="img/engrenagem.png" alt=""> Etec Lauro Gomes </h3>
+            <p>O melhor do seu estudo você encontra aqui</p>
+            <div class="share">
+               <a href="https://www.facebook.com/search/top?q=etec%20lauro%20gomes" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="https://www.instagram.com/eteclaurogomes.oficial/" class="fab fa-instagram"></a>
+               <a href="https://www.linkedin.com/school/etec-lauro-gomes/" class="fab fa-linkedin"></a>
+            </div>
+         </div>
+
+         <div class="box">
+            <h3>Atalhos</h3>
+            <a href="home.html" class="link">home</a>
+            <a href="sobre.html" class="link">Sobre</a>
+            <a href="cursos.html" class="link">Cursos</a>
+            <a href="contato.html" class="link">Contatos</a>
+         </div>
+
+    
+
+         <div class="box">
+            <h3>Se inscreva</h3>
+            <p>Receba novidades da instituição por email</p>
+            <form action="">
+               <input type="email" name="" placeholder="Digite o seu email" id="" class="email">
+               <input type="submit" value="Enviar" class="btn">
+            </form>
+         </div>
+
+      </div>
+      
+      <div class="credit"> Criado por. <span>mr. web designer</span> | Todos os direitos reservados </div>
+
+   </section>
+
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
